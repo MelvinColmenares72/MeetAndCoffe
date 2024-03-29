@@ -1,0 +1,72 @@
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+*/
+.open-sans-300to800{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+
+body{
+    font-size: 10px;
+    font-family: "Open Sans" sans-serif;
+}
+
+header{
+    background-image: url("../img/bg-hero.png");
+    padding: 15em 10rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    font-size: 2em;
+}
+
+}
+
+.anchoDiv{
+    width: 33%;
+}
+
+.verticalTop{
+    vertical-align: top;
+}
+/*  esto es lo mismo que las dos clase que estan arriba anchodiv y verticaltop
+
+div{
+    width: 33%; 
+    vertical-align: top;
+}
+*/
+
+img{
+    width: 100%;
+   
+}
+.centrarTexto{
+    text-align: center;
+}
+
+.deBloqueALinea{
+   display: inline-block; 
+    width: 400px;
+}
+
+footer{
+
+    margin-top: 100px;
+}
+
